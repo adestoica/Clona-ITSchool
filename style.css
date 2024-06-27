@@ -1,0 +1,275 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  align-items: center;
+  padding-top: 10px;
+  background-color: #141e4c;
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+}
+
+html {
+  background-color: #141e4c;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.welcome span {
+  color: orange;
+}
+.navigationItem {
+  color: white;
+  text-decoration: none;
+}
+.navigationAlign img {
+  width: 30%;
+}
+.navigationAlign2 {
+  display: flex;
+  gap: 30px;
+  font-size: 12px;
+}
+.logo img {
+  position: relative;
+  height: 24px;
+}
+.welcome {
+  color: white;
+  margin: 320px;
+}
+.welcomeTitle {
+  font-size: 60px;
+  margin-bottom: 0;
+}
+.buttonWelcome {
+  border-radius: 10px;
+  padding: 20px 70px;
+  background-color: #2bb686;
+}
+.buttonWelcome a {
+  text-decoration: none;
+  color: white;
+}
+.cursuriContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px 10px;
+  margin: 100px 300px;
+}
+.cursuriItem {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(94, 94, 94);
+  align-content: center;
+  color: black;
+  border-radius: 10px;
+
+  padding: 20px;
+  width: 28%;
+  font-size: 20px;
+}
+.calendarCursuri {
+  background-color: white;
+  padding: 40px;
+}
+.title {
+  text-align: center;
+  padding-top: 30px;
+  margin-top: 0;
+}
+.borderOrange {
+  background-color: orange;
+  padding: 2px;
+}
+.ce-este-IT-school {
+  background-color: #dfedf5;
+  padding-bottom: 15px;
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+.ce-este-IT-school p {
+  font-size: 14px;
+  text-align: center;
+  margin: 100px 300px;
+}
+.imagesITSCHOOL {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px 15px;
+  margin: 100px 300px;
+}
+
+.imageIT img {
+  width: 410px;
+}
+
+.parteneri {
+  background-color: white;
+}
+.parteneriContainer {
+  display: flex;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3px;
+  margin: 0px 300px;
+  margin-right: 110px;
+  filter: grayscale(100%);
+}
+.parteneriItem {
+  flex: 19%;
+  padding: 0;
+}
+.parteneriItem img {
+  width: 40%;
+  flex: 19%;
+  padding: 0;
+}
+
+.titleH1 {
+  text-align: center;
+  font-size: 3.5rem;
+  color: white;
+  padding: 60px;
+}
+.programe p {
+  font-size: 14px;
+  text-align: center;
+  margin: 5px 300px;
+}
+.programe {
+  background-color: white;
+  padding: 20px;
+}
+.imagesProgramare {
+  display: flex;
+  border-radius: 10px;
+  border-color: #2bb686;
+}
+.certificare img {
+  width: 23%;
+}
+.imagesPrograme {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  border: solid 1px;
+  border-color: rgb(174, 170, 170);
+  border-radius: 5px;
+  padding: 20px;
+  width: 23%;
+}
+.imagePhyton {
+  width: 19%;
+}
+.buttonDetalii {
+  background-color: #2bb686;
+  color: white;
+  border: none;
+  padding: 3px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.programeContainer {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+}
+.content {
+  padding: 0px;
+}
+.licenta {
+  text-align: center;
+  color: white;
+  font-size: 14px;
+}
+
+.informatiiGenerale {
+  background-color: white;
+  padding: 20px;
+}
+.informatiiGenerale p {
+  margin: 3px 300px;
+}
+.contact {
+  display: flex;
+  width: 100%;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+}
+.contact ul {
+  list-style: none;
+}
+.buttonTrimite {
+  background-color: #2bb686;
+  color: white;
+  border: none;
+  padding: 3px 7px;
+  font-size: 12px;
+  border-radius: 5px;
+  width: 100px;
+}
+.formular {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.containerGeneral {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.imgTrainer {
+  border-radius: 50%;
+  filter: grayscale(100%);
+  position: relative;
+  margin-top: -150px;
+  width: 100%;
+}
+.numeTrainer {
+  border-radius: 5px;
+  background-color: #2b345e;
+  color: orange;
+  width: 200px;
+  text-align: center;
+  position: relative;
+  top: -40px;
+}
+.textTrainer {
+  text-align: center;
+}
+.trainerContainer {
+  border: solid 2px;
+  border-radius: 5px;
+  border-color: rgb(231, 214, 214);
+  padding: 80px;
+  background-color: rgb(255, 255, 255);
+  width: 200px;
+}
+
+.traineri {
+  background-color: white;
+  padding: 200px;
+  display: flex;
+  justify-content: space-evenly;
+}
